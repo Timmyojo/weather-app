@@ -1,0 +1,97 @@
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    background-image: url('../dist/images/background1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+.app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.form-container input[type=text]{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.form-container input[type=text]:focus{
+    outline: none;
+}
+
+.form-container button[type=submit]{
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.form-container button[type=submit] img{
+   height: 25px;
+   width: 25px;
+}
+
+.search-error {
+    color: red;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.weather-info {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.temperature{
+    font-size: 3.5rem;
+}
+
+.temperature img {
+    width: 100px;
+    height: 100px;
+}
+.temperature sup {
+    font-size: 2rem;
+}
+.temperature span {
+    font-size: 3rem;
+}
+
+.humidity {
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
