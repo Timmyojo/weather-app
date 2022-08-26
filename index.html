@@ -6,8 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Weather App</title>
+    <script defer src="main.js"></script>
 </head>
 <body>
+    <div class="weather-app">
+        <div class="container">
+            <div class="app">
+                <h1>Weather App</h1>
+                <form>
+                    <div class="form-container">
+                        <input id="input" type="text" placeholder="enter city name...." required>
+                        <p class="search-error"></p>
+                        <button type="submit" id="submit"><img src="./images/search.png"></button>
+                    </div>
+                </form>
+                <div class="weather-info" src="">
+                    <h2 class="city"></h2>
+                    <div class="weather-condition">
+                        <div class="temperature flex">
     
+                        </div>
+    
+                        <div class="humidity flex">
+                            <p></p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
